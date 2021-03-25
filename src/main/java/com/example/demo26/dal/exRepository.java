@@ -1,9 +1,7 @@
-package dal;
+package com.example.demo26.dal;
 
-import domain.Ex;
+import com.example.demo26.domain.Ex;
 import org.springframework.data.repository.CrudRepository;
-
-import java.util.List;
 
 public interface exRepository extends CrudRepository<Ex, Long> {
 }

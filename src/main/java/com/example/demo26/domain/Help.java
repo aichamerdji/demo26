@@ -1,4 +1,4 @@
-package domain;
+package com.example.demo26.domain;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
