@@ -3,5 +3,5 @@ package dal;
 import domain.Help;
 import org.springframework.data.repository.CrudRepository;
 
-public interface HelpDAO extends CrudRepository<Help, Long> {
+public interface helpRepository extends CrudRepository<Help, Long> {
 }
